@@ -1,0 +1,92 @@
+/*!
+ * Start Bootstrap - Busines Frontpage (https://startbootstrap.com/template-overviews/business-frontpage)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/master/LICENSE)
+ */
+
+/*Header styling*/
+
+body::-webkit-scrollbar-track /*scrollbar customization*/
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar
+{
+    width: 5px;
+    background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #F90;
+}
+
+.header-wrapper{	/*header background image*/
+	background: url('../Includes/images/header-wrapper.jpg') no-repeat  center fixed;
+	min-height:400px;
+}
+
+.alert {
+	margin:0;
+}
+
+/* Modal window styling */
+.modal-open {
+    padding-right: 0px !important;
+	overflow:auto;
+}
+#modalRegisterTittle {
+	text-align:center;
+}
+
+
+/* Login form styling */
+.h2-login {
+	color:#fff;
+	text-align:right;
+	margin-left: auto; 
+	padding-right:.5em;
+}
+.img-login {
+ width:auto;
+ height:30px;
+ margin-bottom:8px;
+}
+.img-input {
+ width:auto;
+ height:28px;
+}
+::placeholder {
+  color: #fff;
+  font-size:0.9em;
+  font-family: arial;
+}
+input:focus::placeholder{
+       color:transparent;
+  }
+
+.login input {
+	background-color: transparent;
+	border:none;
+	border-bottom:2px solid #fff;
+	color: #fff;
+	height:40px;
+	outline: none; 
+	transition: .2s ease-out;
+	-webkit-transition: .2s ease-out;
+	-moz-transition: .2s ease-out;
+	-o-transition: .2s ease-out;
+}
+.login input:focus {
+	border-bottom:2px solid #000;
+	
+}
+
+
+
+
+
+
